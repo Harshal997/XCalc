@@ -1,0 +1,10 @@
+button {
+    padding: 12px 1.1em;
+}
+
+.container {
+    display: grid;
+    gap: 1.5em;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+}
