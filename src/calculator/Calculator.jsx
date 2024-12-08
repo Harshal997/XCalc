@@ -31,7 +31,7 @@ export const Calculator = () => {
                 <button onClick={(e) => setValue((prevValue) => prevValue+e.target.innerText)}>2</button>
                 <button onClick={(e) => setValue((prevValue) => prevValue+e.target.innerText)}>3</button>
                 <button onClick={(e) => setValue((prevValue) => prevValue+e.target.innerText)}>*</button>
-                <button onClick={(e) => {setValue(""); setEvaluatedVal("")}}>c</button>
+                <button onClick={(e) => {setValue(""); setEvaluatedVal("")}}>C</button>
                 <button onClick={(e) => setValue((prevValue) => prevValue+e.target.innerText)}>0</button>
                 <button onClick={(e) => handleEvaluation(e)}>=</button>
                 <button onClick={(e) => setValue((prevValue) => prevValue+e.target.innerText)}>/</button>
